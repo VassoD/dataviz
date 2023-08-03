@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
-    <title>Stencil Component Starter</title>
-
-    <script type="module" src="/build/my-stencil-project.esm.js"></script>
-    <script nomodule src="/build/my-stencil-project.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <title>Stencil Project</title>
   </head>
   <body>
-    <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+    <!-- <data-viz></data-viz> -->
+    <dash-board></dash-board>
+    <div class="container" style="display: flex; flex-direction: column; align-items: center">
+      <div class="chart" id="bar-chart"></div>
+      <div class="chart" id="pie-chart"></div>
+    </div>
+    <script type="module" src="/build/my-stencil-project.esm.js"></script>
+    <script nomodule src="/build/my-stencil-project.js"></script>
   </body>
 </html>
