@@ -1,0 +1,58 @@
+/* data-viz.css */
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.data-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+  background-color: cadetblue;
+}
+
+.data-input input {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ccc;
+}
+
+.data-input input:focus {
+  outline: none;
+  background-color: white;
+}
+
+.data-input button {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: rgb(43, 53, 53);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.data-input button:hover {
+  background-color: rgb(43, 53, 53);
+  color: white;
+}
+
+.chart {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  min-width: 300px;
+  background-color: #f0f0f0;
+}
